@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - Day13ssh@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="Day13ssh">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="casino"/>
+    <schema id="3" name="customers"/>
+    <schema id="4" name="day2"/>
+    <schema id="5" name="day3"/>
+    <schema id="6" name="day6hibernate"/>
+    <schema id="7" name="Day7"/>
+    <schema id="8" name="day7hi"/>
+    <schema id="9" name="Day8"/>
+    <schema id="10" name="Day8hi"/>
+    <schema id="11" name="Day9"/>
+    <schema id="12" name="goods"/>
+    <schema id="13" name="hello"/>
+    <schema id="14" name="information_schema"/>
+    <schema id="15" name="liao"/>
+    <schema id="16" name="mysql"/>
+    <schema id="17" name="newLiao"/>
+    <schema id="18" name="one"/>
+    <schema id="19" name="performance_schema"/>
+    <schema id="20" name="sys"/>
+    <schema id="21" name="test"/>
+    <schema id="22" name="Users"/>
+    <schema id="23" name="work"/>
+    <table id="24" parent="1" name="T_USER"/>
+    <column id="25" parent="24" name="USER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="26" parent="24" name="username">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="27" parent="24" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="28" parent="24" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="29" parent="24" name="PRIMARY">
+      <columns>USER_ID</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
