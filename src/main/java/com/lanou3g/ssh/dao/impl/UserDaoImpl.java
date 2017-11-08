@@ -13,6 +13,7 @@ public class UserDaoImpl extends HibernateDaoSupport implements UserDao {
     public User register(User user) {
         //插入数据
         getHibernateTemplate().save(user);
+        System.out.println("输出一句话");
         return null;
     }
 }
